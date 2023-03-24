@@ -4,3 +4,5 @@ if (window.location.search) {
   fd.innerHTML = Object.entries(po).map(([k, v]) => `<input type="hidden" name="${k}" value="${v}">`).join("");
   console.log(po);
 }
+
+// ?utm_source=google&utm_medium=sem_g&utm_campaign=2411754&utm_term=kwd-12666661&utm_content=testing
